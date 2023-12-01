@@ -20,7 +20,7 @@
   color: var(--text-color, #000);
   font-family: var(--main-font);
   font-size: 18px;
-  font-variation-settings: 'wght' var(--text-weight, 400);
+  font-variation-settings: "wght" var(--text-weight, 400);
   background-color: var(--bg-color, #fff);
   background-image: var(--bg-image);
   background-position: center;
@@ -82,14 +82,12 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
-  transition: scale 0.3s ease;
   transition: opacity 0.3s ease;
-  transform-origin: 0 0;
   appearance: none;
 }
 
 .theme-menu__item {
- margin-block-end: 6px;
+  margin-block-end: 6px;
 }
 
 .theme-menu__button:disabled {
@@ -115,6 +113,7 @@
   background-color: var(--text-color, #000);
   opacity: 0.6;
   transition: scale 0.3s ease;
+  transform-origin: 0 0;
 }
 
 .theme-menu__button:focus {
@@ -149,7 +148,7 @@
   font-family: var(--main-font);
   font-size: inherit;
   font-weight: var(--title-weight);
-  font-variation-settings: 'wght' var(--title-weight, 700);
+  font-variation-settings: "wght" var(--title-weight, 700);
   line-height: normal;
   padding: 5px 24px 5px 10px;
 }
@@ -228,7 +227,7 @@
 .card__text {
   margin: 26px 25px;
   font-weight: var(--text-weight);
-  font-variation-settings: 'wght' var(--text-weight, 400);
+  font-variation-settings: "wght" var(--text-weight, 400);
   line-height: 1.16;
 }
 
@@ -244,7 +243,6 @@
   cursor: pointer;
   appearance: none;
   transition: box-shadow 0.3s ease;
-  transition: transform 0.5s ease-in-out;
 }
 
 .button::before {
